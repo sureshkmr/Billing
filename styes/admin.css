@@ -1,0 +1,44 @@
+.admin-container {
+    padding: 20px;
+}
+
+.admin-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 10px;
+}
+
+.admin-tab {
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f3f4f6;
+}
+
+.admin-tab.active {
+    background-color: #3b82f6;
+    color: white;
+}
+
+.admin-content {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.menu-item-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.menu-item-list {
+    margin-top: 20px;
+}
+
+.menu-item {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 10px 0;
+}
