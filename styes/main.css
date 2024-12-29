@@ -1,0 +1,22 @@
+.app-container {
+    min-height: 100vh;
+    background-color: #f3f4f6;
+}
+
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.error-message {
+    color: #dc2626;
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.success-message {
+    color: #059669;
+    font-size: 14px;
+    margin-top: 4px;
+}
